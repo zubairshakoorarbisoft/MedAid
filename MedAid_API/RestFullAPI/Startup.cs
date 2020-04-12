@@ -20,6 +20,7 @@ using MedAidAPI.Areas.Identity.Data;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
+using Newtonsoft.Json;
 
 namespace MedAidAPI
 {
@@ -65,7 +66,8 @@ namespace MedAidAPI
 
 
             //services.AddTransient<IUserContext, SeedUserContext>();
-            services.AddMvc();
+            services.AddMvc()
+                .AddJsonOptions(x => x.SerializerSettings.ReferenceLoopHandling = ReferenceLoopHandling.Ignore);
             // Adding Swagger
             services.AddSwaggerGen(option => { option.SwaggerDoc("v1", new Info { Title = "MedAidAPI Api", Version = "v1.0.0" }); });
 
@@ -105,7 +107,7 @@ namespace MedAidAPI
             //m Swagger Configurations
             app.UseSwagger(option => { option.RouteTemplate = swaggerOptions.JsonRoute; });
             app.UseSwaggerUI(option => { option.SwaggerEndpoint(swaggerOptions.UIEndpoint, swaggerOptions.Description); });
-
+            app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/V1/swagger.json", "MedAidAPI Api"));
             app.UseHttpsRedirection();
             app.UseMvc();
             app.UseCors(MyAllowSpecificOrigins);

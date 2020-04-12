@@ -28,7 +28,12 @@ namespace MedAidAPI.Areas.Identity.Data
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("Server=A003-00155\\SQLSERVER;Database=MedAidAPI;User ID=sa;password=1234@zubair");
+                #if DEBUG
+                    optionsBuilder.UseSqlServer("Server=A003-00155\\SQLSERVER;Database=MedAidAPI;User ID=sa;password=1234@zubair");
+#else
+                    optionsBuilder.UseSqlServer("Data Source=SQL5053.site4now.net;Initial Catalog=DB_A51276_MedAidAPI;User Id=DB_A51276_MedAidAPI_admin;password=1234@zubair");
+#endif
+
         }
     }
 }

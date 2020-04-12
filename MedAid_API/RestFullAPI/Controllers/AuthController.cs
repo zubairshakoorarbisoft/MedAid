@@ -44,7 +44,7 @@ namespace MedAidAPI.Controllers
                 var token = new JwtSecurityToken(
                     issuer: "localhost",
                     audience: "localhost",
-                    expires: DateTime.UtcNow.AddHours(720), // One Month Expiry Added
+                    expires: DateTime.UtcNow.AddHours(8640), // One Year Expiry Added
                     claims: claims,
                     signingCredentials: new SigningCredentials(signingKey, SecurityAlgorithms.HmacSha256)
                     );

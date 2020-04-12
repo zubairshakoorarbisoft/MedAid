@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\zubair\\Personal\\FYP\\MedAid_API\\RestFullAPI\\MedAidAPI.csproj": {}
+    "D:\\zubair\\Personal\\FYP\\MedAid\\MedAid\\MedAid_API\\RestFullAPI\\MedAidAPI.csproj": {}
   },
   "projects": {
-    "D:\\zubair\\Personal\\FYP\\MedAid_API\\RestFullAPI\\MedAidAPI.csproj": {
+    "D:\\zubair\\Personal\\FYP\\MedAid\\MedAid\\MedAid_API\\RestFullAPI\\MedAidAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\zubair\\Personal\\FYP\\MedAid_API\\RestFullAPI\\MedAidAPI.csproj",
+        "projectUniqueName": "D:\\zubair\\Personal\\FYP\\MedAid\\MedAid\\MedAid_API\\RestFullAPI\\MedAidAPI.csproj",
         "projectName": "MedAidAPI",
-        "projectPath": "D:\\zubair\\Personal\\FYP\\MedAid_API\\RestFullAPI\\MedAidAPI.csproj",
+        "projectPath": "D:\\zubair\\Personal\\FYP\\MedAid\\MedAid\\MedAid_API\\RestFullAPI\\MedAidAPI.csproj",
         "packagesPath": "C:\\Users\\ZubairShkoor\\.nuget\\packages\\",
-        "outputPath": "D:\\zubair\\Personal\\FYP\\MedAid_API\\RestFullAPI\\obj\\",
+        "outputPath": "D:\\zubair\\Personal\\FYP\\MedAid\\MedAid\\MedAid_API\\RestFullAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -89,7 +89,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

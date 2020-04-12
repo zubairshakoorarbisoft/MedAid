@@ -28,7 +28,7 @@ namespace MedAidAPI
             {
                 if (!_medAidAPIContext.Medicines.Any())
                 {
-                    string text_MedicineList = System.IO.File.ReadAllText(@"D:\zubair\Personal\FYP\MedAid_API\RestFullAPI\MedicineList.txt");
+                    string text_MedicineList = System.IO.File.ReadAllText(@"D:\zubair\Personal\FYP\MedAid\MedAid\MedAid_API\RestFullAPI\MedicineList.txt");
                     string[] MedicineNames = text_MedicineList.ToString().Trim().Split(':');
                     List<Medicine> Medicines = new List<Medicine>();
                     Random random = new Random();
@@ -38,7 +38,7 @@ namespace MedAidAPI
                         {
                             Name = medicine.Replace("\r", string.Empty).Replace("\n", string.Empty),
                             RetailPrice = random.Next(5, 2000),
-                            AvailableQuantity = random.Next(5, 2000),
+                            AvailableQuantity = random.Next(0, 2000),
                             StoreId = random.Next(1, 5),
                             SaltFormula = "",
                             Brand = "MedAid",

@@ -1,0 +1,31 @@
+BASE URL: http://zub78687-001-site3.itempurl.com/
+										:: Locations Module ::
+										======================
+Method Type	End Point
+-----------	---------
+
+GET 		api/locations will provide list of all locations with their location type details.
+GET 		api/locations/2 will provide a locations object with their location type details. 2 will be the id of location for which you want data.
+POST		api/locations will take a model and create a location.
+
+		Model Example:
+		{
+		  "LocationShortName": "MGL",
+		  "LocationTitle": "zubait title",
+		  "LocationLatLong": "35.0021;25.01145",
+		  "LocationTypeId": 1,
+		  "UserId": "3e603f0d-bad2-4561-8878-1581d569b93b"
+		}
+POST 		api/locations/update by passing the model with Id field as well to update location
+		
+		Model Example:
+		{
+		  "Id": 2,
+		  "LocationShortName": "MGL",
+		  "LocationTitle": "zubait title edited",
+		  "LocationLatLong": "35.0021;25.01145",
+		  "LocationTypeId": 1,
+		}
+DELETE		api/locations/2 to delete a location just by providing the id of location
+GET 		/api/locations/getUserLocations?userId=3e603f0d-bad2-4561-8878-1581d569b93b To get the locations of a user just by providing user id 
+		"3e603f0d-bad2-4561-8878-1581d569b93b" is example user id here. (you can get it by getting curent logged in user id)

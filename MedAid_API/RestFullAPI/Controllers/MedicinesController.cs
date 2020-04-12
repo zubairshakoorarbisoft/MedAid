@@ -14,7 +14,6 @@ namespace MedAidAPI.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    [Authorize]
     public class MedicinesController : ControllerBase
     {
         private readonly MedAidAPIContext _context;
