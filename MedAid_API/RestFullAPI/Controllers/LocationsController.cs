@@ -81,7 +81,7 @@ namespace MedAidAPI.Controllers
         }
 
         // PUT: api/locations/5
-        [HttpPost("{id}")]
+        [HttpPost]
         [Route("update")]
         public string update([FromBody]Location locationModel)
         {

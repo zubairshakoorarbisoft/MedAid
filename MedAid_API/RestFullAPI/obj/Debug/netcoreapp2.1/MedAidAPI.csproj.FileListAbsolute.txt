@@ -72,6 +72,7 @@ D:\zubair\Personal\FYP\MedAid\MedAid\MedAid_API\RestFullAPI\bin\Debug\netcoreapp
 D:\zubair\Personal\FYP\MedAid\MedAid\MedAid_API\RestFullAPI\bin\Debug\netcoreapp2.1\MedAidAPI.pdb
 D:\zubair\Personal\FYP\MedAid\MedAid\MedAid_API\RestFullAPI\bin\Debug\netcoreapp2.1\MedAidAPI.Views.dll
 D:\zubair\Personal\FYP\MedAid\MedAid\MedAid_API\RestFullAPI\bin\Debug\netcoreapp2.1\MedAidAPI.Views.pdb
+D:\zubair\Personal\FYP\MedAid\MedAid\MedAid_API\RestFullAPI\obj\Debug\netcoreapp2.1\MedAidAPI.csprojAssemblyReference.cache
 D:\zubair\Personal\FYP\MedAid\MedAid\MedAid_API\RestFullAPI\obj\Debug\netcoreapp2.1\MedAidAPI.RazorAssemblyInfo.cache
 D:\zubair\Personal\FYP\MedAid\MedAid\MedAid_API\RestFullAPI\obj\Debug\netcoreapp2.1\MedAidAPI.RazorAssemblyInfo.cs
 D:\zubair\Personal\FYP\MedAid\MedAid\MedAid_API\RestFullAPI\obj\Debug\netcoreapp2.1\UserSecretsAssemblyInfo.cs
@@ -125,4 +126,3 @@ D:\zubair\Personal\FYP\MedAid\MedAid\MedAid_API\RestFullAPI\obj\Debug\netcoreapp
 D:\zubair\Personal\FYP\MedAid\MedAid\MedAid_API\RestFullAPI\obj\Debug\netcoreapp2.1\MedAidAPI.dll
 D:\zubair\Personal\FYP\MedAid\MedAid\MedAid_API\RestFullAPI\obj\Debug\netcoreapp2.1\MedAidAPI.pdb
 D:\zubair\Personal\FYP\MedAid\MedAid\MedAid_API\RestFullAPI\obj\Debug\netcoreapp2.1\MedAidAPI.csproj.CopyComplete
-D:\zubair\Personal\FYP\MedAid\MedAid\MedAid_API\RestFullAPI\obj\Debug\netcoreapp2.1\MedAidAPI.csprojAssemblyReference.cache
