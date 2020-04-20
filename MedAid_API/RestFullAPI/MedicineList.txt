@@ -1,0 +1,20 @@
+Drug:Aspirin:Ibuprofen:Flurbiprofen:Diclofenac Sodium:Naproxen:Piroxicam:Nimesulide:Ketorolac:Paracetamol:Paracetamol:caffeine:Orphenadrine:Paracetamol:Codeine:Tramaodol:Tizanidine:Thiocolchicoside:Amoxicillin:Amoxicillin:Cephradine:Cefixime:Ciporofloxacin:Levofloxacin:Ofloxacin:Clarithromycin:Moxifloxacin:Azithromycin:Doxycycline:Metronidazole:Clindamycin:Isoniazid:Rifampicin:Ethambutol+Pyrizinamide:Isoniazid:Rifampicin:Ethambutol +
+Isoniazid:Rifampicin:Pyrizinamide:Isoniazid:Rifampicin:Ethambutol:Pyrizinamide:Rifampicin:Isoniazid:Ethambutol+Isoniazid:Ampicillin+ Cloxacillin):Benzylpenicillin:Coamoxiclav:Clindamycin:Ceftriaxone:Cefotaxime:Ceftazidime:Amikacin:Gentamicin:Ciprofloxacin:Levofloxacin:Clarithromycin:Metronidazole:Piperacillin:Tazobactum:Imipenem:Cilastatin:Meropenem:Vancomycin:Linezolid:Teicoplanin:Drug:Lisinopril:Captopril:Enalapril:Losartan:Valsartan:Telmisartan:Lisinopril+ Hydrochlorothiazide:Losartan:Hydrochlorothiazide:Atenolol:Metoprolol:Propranolol:Amlodipine:Nifedipine:Verapamil:Diltiazam:Diuretics:Hydrochlorothiazide:Frusemide:Spironolactone:Spironolactone+ Frusemide:Prazosin
+Methyldopa:Metformin:Glimepiride:Gliclazide:Glibenclamide:Pioglitazone:Glimepiride:Metformin:Pioglitazone:Metformin:Insulin Regular:Insulin 70/30:Insulin NPH:Insulin Glargine:Thyroxine:Carbimazole:Propylthiouracil:Prednisolone:Hydrocortisone:Aluminium Hydroxide
+Sucralfate:Ranitidine:Cimetidine:Omeprazole:Esomeprazole:Pantoprazole:Rabeprazole:ansoprazole:Loperamide:Sodium Picosulphate:Bisacodyl:Lactulose:Dimenhydrinate:Domperidone:Metoclopramide:Prochlorperazine:Itopride:Drotaverine:Mebeverine :Metopine:Cetirizine:Levocetirizine:Loratidine:Fexofenadine:Betahistine:Nitroglycerin:Isosorbide Mononitrate:Isosorbide Dinitrate:Aspirin:Clopidogrel:Aspirin:Clopidogrel:Atorvastatin:Simvastatin:Rosuvastatin:Amiodarone:Digoxin:Salbutamol:Ipratropium:Salmeterol:Beclomethasone:Salbutamol:Beclomethasone:Salmeterol:Fluticasone:Montelukast:Theophylline:Sodium Valproate:Carbamazepine:Phenytoin:Phenobarbitone:Topiramate:Levitiracetam:Clonazepam:Carbidopa:Levodopa:Procyclidine:Amantadine:Flunarizine:Sumatriptan:Alprazolam:Bromazepam:Escitalopram:Amitriptyline:Vitamin B1 (Thiamine):Vitamin B6 (Pyridoxine):Vitamin B12 (Cyanocobalamin):Vitamin B12 (Mecobalamin):
+Vitamin B Complex:Multivitamins+ Minerals:Ferrous Sulphate:Folic Acid:Alfacalcidol:
+Calcium Carbonate
+
+
+
+
+
+
+
+
+
+
+
+
+
+
