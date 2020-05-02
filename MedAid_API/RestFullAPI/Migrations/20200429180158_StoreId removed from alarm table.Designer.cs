@@ -4,14 +4,16 @@ using MedAidAPI.Areas.Identity.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace MedAidAPI.Migrations
 {
     [DbContext(typeof(MedAidAPIContext))]
-    partial class MedAidAPIContextModelSnapshot : ModelSnapshot
+    [Migration("20200429180158_StoreId removed from alarm table")]
+    partial class StoreIdremovedfromalarmtable
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

@@ -24,15 +24,11 @@ namespace MedAidAPI.Models
         public string UserId { get; set; }
         [ForeignKey("UserId")]
         public MedAidAPIUser MedAidUser { get; set; }
-
-        public int StoreId { get; set; }
-        [ForeignKey("StoreId")]
-        public Store Stores { get; set; }
         
         [DefaultValue(true)]
         public bool isActive { get; set; }
 
-        public int AlarmTypeId { get; set; }
+        public int? AlarmTypeId { get; set; }
         [ForeignKey("AlarmTypeId")]
         public AlarmType AlarmType { get; set; }
 
